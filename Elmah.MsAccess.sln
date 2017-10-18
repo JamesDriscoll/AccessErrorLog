@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2002
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elmah.MsAccess", "src\Elmah.MsAccess.csproj", "{1B32804F-CE8D-4259-9591-FECF31DF9B95}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{889F34A5-2602-4B01-8DCB-5BED7FFDA3E9}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		build.cmd = build.cmd
+		COPYING.txt = COPYING.txt
+		Elmah.Access.nuspec = Elmah.Access.nuspec
+		msbuild.cmd = msbuild.cmd
+		pack.cmd = pack.cmd
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		NETFX 3.5 Debug|Any CPU = NETFX 3.5 Debug|Any CPU
+		NETFX 3.5 Release|Any CPU = NETFX 3.5 Release|Any CPU
+		NETFX 4.0 Debug|Any CPU = NETFX 4.0 Debug|Any CPU
+		NETFX 4.0 Release|Any CPU = NETFX 4.0 Release|Any CPU
+		NETFX 4.5 Debug|Any CPU = NETFX 4.5 Debug|Any CPU
+		NETFX 4.5 Release|Any CPU = NETFX 4.5 Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B32804F-CE8D-4259-9591-FECF31DF9B95}.NETFX 3.5 Debug|Any CPU.ActiveCfg = NETFX 3.5 Debug|Any CPU
+		{1B32804F-CE8D-4259-9591-FECF31DF9B95}.NETFX 3.5 Debug|Any CPU.Build.0 = NETFX 3.5 Debug|Any CPU
+		{1B32804F-CE8D-4259-9591-FECF31DF9B95}.NETFX 3.5 Release|Any CPU.ActiveCfg = NETFX 3.5 Release|Any CPU
+		{1B32804F-CE8D-4259-9591-FECF31DF9B95}.NETFX 3.5 Release|Any CPU.Build.0 = NETFX 3.5 Release|Any CPU
+		{1B32804F-CE8D-4259-9591-FECF31DF9B95}.NETFX 4.0 Debug|Any CPU.ActiveCfg = NETFX 4.0 Debug|Any CPU
+		{1B32804F-CE8D-4259-9591-FECF31DF9B95}.NETFX 4.0 Debug|Any CPU.Build.0 = NETFX 4.0 Debug|Any CPU
+		{1B32804F-CE8D-4259-9591-FECF31DF9B95}.NETFX 4.0 Release|Any CPU.ActiveCfg = NETFX 4.0 Release|Any CPU
+		{1B32804F-CE8D-4259-9591-FECF31DF9B95}.NETFX 4.0 Release|Any CPU.Build.0 = NETFX 4.0 Release|Any CPU
+		{1B32804F-CE8D-4259-9591-FECF31DF9B95}.NETFX 4.5 Debug|Any CPU.ActiveCfg = NETFX 4.5 Debug|Any CPU
+		{1B32804F-CE8D-4259-9591-FECF31DF9B95}.NETFX 4.5 Debug|Any CPU.Build.0 = NETFX 4.5 Debug|Any CPU
+		{1B32804F-CE8D-4259-9591-FECF31DF9B95}.NETFX 4.5 Release|Any CPU.ActiveCfg = NETFX 4.5 Release|Any CPU
+		{1B32804F-CE8D-4259-9591-FECF31DF9B95}.NETFX 4.5 Release|Any CPU.Build.0 = NETFX 4.5 Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED8A0F2A-6E9C-41D8-A2FA-307D3C448747}
+	EndGlobalSection
+EndGlobal
