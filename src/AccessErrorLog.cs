@@ -14,8 +14,6 @@
 //
 #endregion
 
-[assembly: Elmah.Scc("$Id: AccessErrorLog.cs 923 2011-12-23 22:02:10Z azizatif $")]
-
 namespace Elmah.MsAccess
 {
     #region Imports

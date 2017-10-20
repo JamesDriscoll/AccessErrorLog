@@ -18,26 +18,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		NETFX 3.5 Debug|Any CPU = NETFX 3.5 Debug|Any CPU
-		NETFX 3.5 Release|Any CPU = NETFX 3.5 Release|Any CPU
-		NETFX 4.0 Debug|Any CPU = NETFX 4.0 Debug|Any CPU
-		NETFX 4.0 Release|Any CPU = NETFX 4.0 Release|Any CPU
-		NETFX 4.5 Debug|Any CPU = NETFX 4.5 Debug|Any CPU
-		NETFX 4.5 Release|Any CPU = NETFX 4.5 Release|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1B32804F-CE8D-4259-9591-FECF31DF9B95}.NETFX 3.5 Debug|Any CPU.ActiveCfg = NETFX 3.5 Debug|Any CPU
-		{1B32804F-CE8D-4259-9591-FECF31DF9B95}.NETFX 3.5 Debug|Any CPU.Build.0 = NETFX 3.5 Debug|Any CPU
-		{1B32804F-CE8D-4259-9591-FECF31DF9B95}.NETFX 3.5 Release|Any CPU.ActiveCfg = NETFX 3.5 Release|Any CPU
-		{1B32804F-CE8D-4259-9591-FECF31DF9B95}.NETFX 3.5 Release|Any CPU.Build.0 = NETFX 3.5 Release|Any CPU
-		{1B32804F-CE8D-4259-9591-FECF31DF9B95}.NETFX 4.0 Debug|Any CPU.ActiveCfg = NETFX 4.0 Debug|Any CPU
-		{1B32804F-CE8D-4259-9591-FECF31DF9B95}.NETFX 4.0 Debug|Any CPU.Build.0 = NETFX 4.0 Debug|Any CPU
-		{1B32804F-CE8D-4259-9591-FECF31DF9B95}.NETFX 4.0 Release|Any CPU.ActiveCfg = NETFX 4.0 Release|Any CPU
-		{1B32804F-CE8D-4259-9591-FECF31DF9B95}.NETFX 4.0 Release|Any CPU.Build.0 = NETFX 4.0 Release|Any CPU
-		{1B32804F-CE8D-4259-9591-FECF31DF9B95}.NETFX 4.5 Debug|Any CPU.ActiveCfg = NETFX 4.5 Debug|Any CPU
-		{1B32804F-CE8D-4259-9591-FECF31DF9B95}.NETFX 4.5 Debug|Any CPU.Build.0 = NETFX 4.5 Debug|Any CPU
-		{1B32804F-CE8D-4259-9591-FECF31DF9B95}.NETFX 4.5 Release|Any CPU.ActiveCfg = NETFX 4.5 Release|Any CPU
-		{1B32804F-CE8D-4259-9591-FECF31DF9B95}.NETFX 4.5 Release|Any CPU.Build.0 = NETFX 4.5 Release|Any CPU
+		{1B32804F-CE8D-4259-9591-FECF31DF9B95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B32804F-CE8D-4259-9591-FECF31DF9B95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B32804F-CE8D-4259-9591-FECF31DF9B95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B32804F-CE8D-4259-9591-FECF31DF9B95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
