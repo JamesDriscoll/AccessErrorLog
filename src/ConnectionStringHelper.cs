@@ -86,34 +86,6 @@ namespace Elmah
         }
 
         /// <summary>
-        /// Gets the provider name from the named connection string (if supplied) 
-        /// from the given configuration dictionary.
-        /// </summary>
-
-        public static string GetConnectionStringProviderName(IDictionary config)
-        {
-            Debug.Assert(config != null);
-
-            //
-            // First look for a connection string name that can be 
-            // subsequently indexed into the <connectionStrings> section of 
-            // the configuration to get the actual connection string.
-            //
-
-            var connectionStringName = config.Find("connectionStringName", string.Empty);
-
-            if (connectionStringName.Length == 0)
-                return string.Empty;
-
-            var settings = ConfigurationManager.ConnectionStrings[connectionStringName];
-
-            if (settings == null)
-                return string.Empty;
-
-            return settings.ProviderName ?? string.Empty;
-        }
-
-        /// <summary>
         /// Extracts the Data Source file path from a connection string,
         /// resolving <c>~/</c> and <c>|DataDirectory|</c>.
         /// </summary>
@@ -124,32 +96,6 @@ namespace Elmah
 
             var builder = new DbConnectionStringBuilder();
             return GetDataSourceFilePath(builder, connectionString);
-        }
-
-        /// <summary>
-        /// Gets the connection string from the given configuration, 
-        /// resolving <c>~/</c> and <c>|DataDirectory|</c> if requested.
-        /// </summary>
-
-        public static string GetConnectionString(IDictionary config, bool resolveDataSource)
-        {
-            var connectionString = GetConnectionString(config);
-            return resolveDataSource ? GetResolvedConnectionString(connectionString) : connectionString;
-        }
-
-        /// <summary>
-        /// Converts the supplied connection string so that the Data Source 
-        /// specification contains the full path and not <c>~/</c> or
-        /// <c>|DataDirectory|</c>.
-        /// </summary>
-
-        public static string GetResolvedConnectionString(string connectionString)
-        {
-            Debug.AssertStringNotEmpty(connectionString);
-
-            var builder = new DbConnectionStringBuilder();
-            builder["Data Source"] = GetDataSourceFilePath(builder, connectionString);
-            return builder.ToString();
         }
 
         [MethodImpl(MethodImplOptions.NoInlining)]
