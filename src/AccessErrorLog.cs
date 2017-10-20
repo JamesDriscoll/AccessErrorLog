@@ -317,7 +317,7 @@ namespace Elmah
         private void InitializeDatabase()
         {
             var connectionString = ConnectionString;
-            Debug.AssertStringNotEmpty(connectionString);
+            Debug.Assert(!string.IsNullOrEmpty(connectionString));
 
             var dbFilePath = ConnectionStringHelper.GetDataSourceFilePath(connectionString);
             if (File.Exists(dbFilePath))
